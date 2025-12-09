@@ -1,0 +1,41 @@
+nome;classe;risco;risco_investimento;liquidez_dias;horizonte_min_meses;retorno_esperado_anual;rendimento_mensal;volatilidade;aceita_ir;tipo_ajuste;instituicao_bancaria;descricao;perfil_recomendado;cluster
+Poupança;Renda Fixa;1;conservador;0;0;6.17;0.5;1;não;pós;Caixa;Poupança tradicional com liquidez diária;Reserva/Proteção Total;
+LCI Imobiliária 1 ano;Renda Fixa;2;conservador;90;12;10.0;0.8;2;não;pós;Itaú;LCI isenta com lastro imobiliário;Conservador Estruturado;
+LCA Agronegócio 2 anos;Renda Fixa;2;conservador;90;24;11.0;0.87;2;não;pós;Bradesco;LCA isenta com lastro agro;Conservador Estruturado;
+LCI 3 anos;Renda Fixa;2;conservador;120;36;12.0;0.95;3;não;pós;Santander;Isenta e com prazo maior;Conservador Estruturado;
+LCA 3 anos;Renda Fixa;2;conservador;120;36;12.0;0.95;3;não;pós;Banco do Brasil;Isenta do IR e com retorno elevado para o prazo;Conservador Estruturado;
+CDB Liquidez Diária;Renda Fixa;1;conservador;0;0;10.0;0.8;1;sim;pós;Banco Inter;Renda fixa com liquidez diária;Reserva/Proteção Total;
+Tesouro Selic;Renda Fixa;1;conservador;0;0;9.0;0.72;1;sim;pós;Tesouro Nacional;Título público;Reserva/Proteção Total;
+Tesouro IPCA 2030;Renda Fixa;2;moderado;60;60;12.0;0.95;3;sim;híbrido;Tesouro Nacional;Proteção contra inflação;Conservador Estruturado;
+Tesouro IPCA 2045;Renda Fixa;2;moderado;60;120;13.0;1.02;3;sim;híbrido;Tesouro Nacional;Longo prazo;Conservador Estruturado;
+Ações Large Cap;Ação;4;agressivo;2;6;18.0;1.39;7;sim;variável;Itaú;Carteira de ações de grandes empresas;Turbo Arrojado;
+Ações Small & Mid Cap;Ação;5;muito agressivo;2;6;25.0;1.86;9;sim;variável;BTG;Carteira de ações de pequenas e médias empresas;Turbo Arrojado;
+ETF Small & Mid Cap Brasil;ETF;4;agressivo;2;6;22.0;1.67;8;sim;variável;BTG;ETF de pequenas e médias empresas;Turbo Arrojado;
+Derivativos Simples;Derivativos;5;muito agressivo;1;1;40.0;2.82;12;sim;variável;Clear;Opções;Turbo Arrojado;
+Cripto Genérica 1;Cripto;5;muito agressivo;1;1;50.0;3.47;15;sim;variável;Mercado Bitcoin;Criptomoeda volátil;Turbo Arrojado;
+Cripto Genérica 2;Cripto;5;muito agressivo;1;1;45.0;3.24;14;sim;variável;Mercado Bitcoin;Cripto;Turbo Arrojado;
+Stablecoin;Cripto;2;moderado;1;1;9.0;0.72;2;sim;variável;Mercado Bitcoin;Atrelada ao dólar;Conservador Estruturado;
+Tesouro Prefixado 2029;Renda Fixa;2;moderado;60;48;12.0;0.95;3;sim;pré;Tesouro Nacional;Retorno fixo;Conservador Estruturado;
+LCI Curto Prazo;Renda Fixa;2;conservador;90;6;9.0;0.72;2;não;pós;Banco Pan;Investimento isento;Conservador Estruturado;
+LCA Curto Prazo;Renda Fixa;2;conservador;90;6;9.0;0.72;2;não;pós;C6 Bank;Investimento agro isento;Conservador Estruturado;
+Renda Fixa Curto Prazo Genérica;Renda Fixa;2;conservador;60;6;8.0;0.66;2;não;pós;Banco Pan;Investimento de renda fixa curto prazo, isento de IR;Conservador Estruturado;
+CRI Corporativo;Crédito Privado;3;moderado;180;36;13.0;1.02;3;não;pré;BTG;Título imobiliário isento;Moderado Tático;0.0
+CRA Agro;Crédito Privado;3;moderado;180;36;13.0;1.02;3;não;pré;BTG;Título do agronegócio isento;Moderado Tático;0.0
+Debênture Incentivada Infra;Renda Fixa;3;moderado;90;36;14.0;1.1;4;não;pré;Itaú;Isenta e focada em infraestrutura;Moderado Tático;0.0
+Debênture Incentivada Energia;Renda Fixa;3;moderado;90;48;14.0;1.1;4;não;pré;Santander;Foco em energia limpa;Moderado Tático;0.0
+COE Protegido Isento;Estruturado;3;moderado;30;12;12.0;0.95;2;não;híbrido;XP;Estrutura com ativos incentivados;Moderado Tático;0.0
+COE Agro Isento;Estruturado;3;moderado;30;12;13.0;1.02;3;não;híbrido;BTG;COE com lastro agro isento;Moderado Tático;0.0
+FII Papel (CRI);FII;3;moderado;30;18;12.0;0.95;3;sim;pós;XP;Fundo de recebíveis imobiliários;Moderado Tático;0.0
+FII Agro;FII;3;moderado;30;18;11.0;0.87;3;sim;pós;Nubank;Fundo do agronegócio;Moderado Tático;0.0
+Multimercado Moderado;Multimercado;3;moderado;30;12;16.0;1.24;4;sim;mix;XP;Diversificado;Moderado Tático;0.0
+Multimercado Agressivo;Multimercado;4;agressivo;90;6;20.0;1.53;6;sim;mix;BTG;Alta volatilidade;Arrojado Estratégico;1.0
+ETF Large Cap Brasil;ETF;3;moderado;2;6;16.0;1.24;6;sim;variável;Itaú;ETF de empresas brasileiras de grande porte;Moderado Tático;0.0
+COE Alavancado;Estruturado;4;agressivo;30;6;25.0;1.86;8;sim;variável;Bradesco;COE com alavancagem;Arrojado Estratégico;1.0
+CDB 3 anos;Renda Fixa;3;moderado;90;36;12.0;0.95;3;sim;pré;Santander;Prazo longo com retorno alto;Moderado Tático;0.0
+FII Logístico;FII;3;moderado;30;24;12.0;0.95;4;sim;variável;BTG;Fundo de galpões;Moderado Tático;0.0
+FII Shopping;FII;3;moderado;30;24;12.0;0.95;4;sim;variável;Santander;Renda de shoppings;Moderado Tático;0.0
+CRA Exportação;Crédito Privado;3;moderado;180;36;13.0;1.02;3;não;pré;Safra;Ativo agro exportação;Moderado Tático;0.0
+CRI Shopping Center;Crédito Privado;3;moderado;180;36;13.0;1.02;3;não;pré;BTG;Recebíveis de shoppings;Moderado Tático;0.0
+Debênture Incentivada Logística;Renda Fixa;3;moderado;90;36;14.0;1.1;4;não;pré;Itaú;Infraestrutura logística;Moderado Tático;0.0
+Fundo Multimercado Genérico 1;Multimercado;3;moderado;30;12;15.0;1.18;4;sim;mix;XP;Fundo multimercado diversificado;Moderado Tático;0.0
+Fundo Multimercado Genérico 2;Multimercado;4;agressivo;60;12;20.0;1.53;6;sim;mix;BTG;Fundo multimercado com maior risco e retorno;Arrojado Estratégico;1.0

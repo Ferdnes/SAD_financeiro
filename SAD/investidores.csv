@@ -1,0 +1,101 @@
+idade;objetivo;reserva_de_emergencia;horizonte;liquidez;dividas;educacao_financeiro;Risco;aceita_ir
+40;Comprar um bem (carro, casa, viagem);Sim, mais de 6 meses;Curto prazo (Até 1 ano);Resgate diário;Não;Raramente;Muito baixo;Sim, se o retorno for superior
+20;Gerar renda mensal;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate diário;Sim, pequenas dívidas;Frequentemente;Muito alto;Sim, se o retorno for superior
+33;Acumular patrimônio no longo prazo;Não possuo;Médio;Resgate em alguns meses;Não;Frequentemente;Moderado;Não tenho preferência
+32;Acumular patrimônio no longo prazo;Não possuo;Médio prazo (1 a 5 anos);Resgate em alguns meses;Não;Nunca;Alto;Não
+21;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate diário;Sim, dívidas significativas;Nunca;Muito alto;Não
+62;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate diário;Sim, pequenas dívidas;Raramente;Baixo;Não
+65;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Resgate em 30 dias;Sim, dívidas significativas;Raramente;Muito baixo;Não tenho preferência
+46;Gerar renda mensal;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Não;Frequentemente;Moderado;Não tenho preferência
+30;Aposentadoria;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Resgate em 30 dias;Sim, dívidas significativas;Frequentemente;Muito baixo;Sim, se o retorno for superior
+54;Aposentadoria;Não possuo;Médio prazo (1 a 5 anos);Resgate em 30 dias;Sim, pequenas dívidas;Frequentemente;Muito baixo;Não
+60;Aposentadoria;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Posso deixar por anos sem mexer;Sim, pequenas dívidas;Frequentemente;Alto;Não tenho preferência
+38;Construir reserva de emergência;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Resgate diário;Sim, pequenas dívidas;Raramente;Moderado;Não
+25;Gerar renda mensal;Não possuo;Longo prazo (acima de 5 anos);Resgate diário;Não;Frequentemente;Alto;Não tenho preferência
+42;Gerar renda mensal;Não possuo;Médio prazo (1 a 5 anos);Resgate diário;Não;Frequentemente;Alto;Não
+27;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Longo prazo (acima de 5 anos);Posso deixar por anos sem mexer;Sim, dívidas significativas;Nunca;Baixo;Não
+39;Aposentadoria;Não possuo;Longo prazo (acima de 5 anos);Quero resgatar daqui a 1 ano;Não;Nunca;Muito baixo;Sim, se o retorno for superior
+26;Gerar renda mensal;Não possuo;Longo prazo (acima de 5 anos);Resgate diário;Não;Nunca;Moderado;Não
+50;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate em 30 dias;Não;Frequentemente;Muito alto;Não tenho preferência
+51;Comprar um bem (carro, casa, viagem);Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Quero resgatar daqui a 1 ano;Não;Raramente;Muito baixo;Não
+47;Aposentadoria;Sim, menos de 6 meses de despesas;Longo prazo (acima de 5 anos);Resgate em 30 dias;Sim, dívidas significativas;Nunca;Moderado;Não
+23;Gerar renda mensal;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate em 30 dias;Sim, dívidas significativas;Frequentemente;Alto;Não tenho preferência
+21;Comprar um bem (carro, casa, viagem);Não possuo;Curto prazo (Até 1 ano);Posso deixar por anos sem mexer;Não;Nunca;Alto;Não tenho preferência
+61;Gerar renda mensal;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Resgate em alguns meses;Não;Raramente;Baixo;Não
+27;Gerar renda mensal;Não possuo;Curto prazo (Até 1 ano);Resgate em alguns meses;Sim, pequenas dívidas;Frequentemente;Moderado;Não tenho preferência
+52;Gerar renda mensal;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate em 30 dias;Não;Raramente;Alto;Não
+18;Aposentadoria;Não possuo;Médio prazo (1 a 5 anos);Resgate em alguns meses;Não;Nunca;Baixo;Sim, se o retorno for superior
+52;Aposentadoria;Não possuo;Curto prazo (Até 1 ano);Posso deixar por anos sem mexer;Sim, pequenas dívidas;Raramente;Moderado;Não
+62;Aposentadoria;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Resgate em 30 dias;Não;Raramente;Alto;Sim, se o retorno for superior
+50;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Sim, pequenas dívidas;Raramente;Baixo;Não
+42;Comprar um bem (carro, casa, viagem);Não possuo;Curto prazo (Até 1 ano);Posso deixar por anos sem mexer;Sim, dívidas significativas;Raramente;Moderado;Sim, se o retorno for superior
+18;Construir reserva de emergência;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Sim, pequenas dívidas;Frequentemente;Moderado;Não
+34;Aposentadoria;Não possuo;Curto prazo (Até 1 ano);Resgate em 30 dias;Sim, pequenas dívidas;Raramente;Alto;Não
+59;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Longo prazo (acima de 5 anos);Resgate em 30 dias;Sim, dívidas significativas;Frequentemente;Alto;Sim, se o retorno for superior
+36;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Quero resgatar daqui a 1 ano;Sim, dívidas significativas;Nunca;Baixo;Sim, se o retorno for superior
+65;Construir reserva de emergência;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Resgate em 30 dias;Sim, pequenas dívidas;Frequentemente;Alto;Sim, se o retorno for superior
+32;Acumular patrimônio no longo prazo;Não possuo;Curto prazo (Até 1 ano);Resgate em alguns meses;Não;Nunca;Moderado;Não
+57;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Resgate em alguns meses;Não;Raramente;Moderado;Não
+57;Acumular patrimônio no longo prazo;Não possuo;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Sim, dívidas significativas;Nunca;Muito baixo;Sim, se o retorno for superior
+56;Aposentadoria;Não possuo;Curto prazo (Até 1 ano);Posso deixar por anos sem mexer;Não;Frequentemente;Alto;Não tenho preferência
+36;Aposentadoria;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Resgate em alguns meses;Não;Nunca;Alto;Sim, se o retorno for superior
+56;Construir reserva de emergência;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Resgate diário;Sim, pequenas dívidas;Raramente;Muito baixo;Sim, se o retorno for superior
+47;Aposentadoria;Não possuo;Médio prazo (1 a 5 anos);Resgate em alguns meses;Sim, pequenas dívidas;Nunca;Alto;Não tenho preferência
+61;Construir reserva de emergência;Não possuo;Curto prazo (Até 1 ano);Resgate diário;Não;Raramente;Muito baixo;Sim, se o retorno for superior
+49;Acumular patrimônio no longo prazo;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Posso deixar por anos sem mexer;Não;Nunca;Alto;Sim, se o retorno for superior
+41;Gerar renda mensal;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Sim, dívidas significativas;Nunca;Alto;Sim, se o retorno for superior
+39;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Posso deixar por anos sem mexer;Sim, dívidas significativas;Raramente;Muito alto;Não
+65;Gerar renda mensal;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Resgate em 30 dias;Não;Frequentemente;Alto;Sim, se o retorno for superior
+48;Gerar renda mensal;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Sim, pequenas dívidas;Nunca;Baixo;Sim, se o retorno for superior
+23;Gerar renda mensal;Não possuo;Médio prazo (1 a 5 anos);Posso deixar por anos sem mexer;Sim, pequenas dívidas;Nunca;Muito alto;Sim, se o retorno for superior
+42;Aposentadoria;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Resgate em alguns meses;Sim, dívidas significativas;Nunca;Muito baixo;Não tenho preferência
+68;Acumular patrimônio no longo prazo;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Resgate diário;Sim, pequenas dívidas;Raramente;Moderado;Sim, se o retorno for superior
+60;Construir reserva de emergência;Não possuo;Longo prazo (acima de 5 anos);Resgate em alguns meses;Sim, dívidas significativas;Nunca;Baixo;Não
+68;Gerar renda mensal;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Posso deixar por anos sem mexer;Sim, pequenas dívidas;Nunca;Muito baixo;Não
+28;Aposentadoria;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Resgate em alguns meses;Sim, pequenas dívidas;Frequentemente;Muito alto;Sim, se o retorno for superior
+64;Construir reserva de emergência;Não possuo;Longo prazo (acima de 5 anos);Resgate em 30 dias;Sim, pequenas dívidas;Raramente;Muito alto;Não
+31;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Longo prazo (acima de 5 anos);Resgate em 30 dias;Sim, pequenas dívidas;Raramente;Muito baixo;Não
+19;Acumular patrimônio no longo prazo;Não possuo;Longo prazo (acima de 5 anos);Posso deixar por anos sem mexer;Sim, dívidas significativas;Raramente;Muito alto;Não
+60;Comprar um bem (carro, casa, viagem);Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Resgate em alguns meses;Não;Nunca;Baixo;Sim, se o retorno for superior
+48;Comprar um bem (carro, casa, viagem);Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Resgate diário;Sim, pequenas dívidas;Frequentemente;Moderado;Sim, se o retorno for superior
+19;Comprar um bem (carro, casa, viagem);Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Resgate diário;Não;Nunca;Baixo;Não tenho preferência
+31;Comprar um bem (carro, casa, viagem);Sim, mais de 6 meses;Curto prazo (Até 1 ano);Resgate em 30 dias;Sim, dívidas significativas;Nunca;Moderado;Sim, se o retorno for superior
+30;Gerar renda mensal;Não possuo;Médio prazo (1 a 5 anos);Resgate diário;Não;Nunca;Alto;Não tenho preferência
+41;Acumular patrimônio no longo prazo;Sim, mais de 6 meses;Curto prazo (Até 1 ano);Resgate em 30 dias;Sim, dívidas significativas;Frequentemente;Baixo;Sim, se o retorno for superior
+67;Gerar renda mensal;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Posso deixar por anos sem mexer;Não;Frequentemente;Muito baixo;Não
+27;Gerar renda mensal;Não possuo;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Não;Nunca;Moderado;Sim, se o retorno for superior
+49;Comprar um bem (carro, casa, viagem);Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Posso deixar por anos sem mexer;Sim, pequenas dívidas;Raramente;Baixo;Não tenho preferência
+66;Aposentadoria;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Resgate diário;Sim, pequenas dívidas;Nunca;Baixo;Não
+19;Comprar um bem (carro, casa, viagem);Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Posso deixar por anos sem mexer;Sim, dívidas significativas;Nunca;Muito alto;Não
+62;Acumular patrimônio no longo prazo;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Sim, dívidas significativas;Nunca;Muito baixo;Não
+53;Construir reserva de emergência;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Resgate em alguns meses;Sim, pequenas dívidas;Raramente;Moderado;Não
+32;Construir reserva de emergência;Não possuo;Curto prazo (Até 1 ano);Resgate em 30 dias;Sim, dívidas significativas;Nunca;Muito alto;Não
+26;Acumular patrimônio no longo prazo;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Quero resgatar daqui a 1 ano;Sim, pequenas dívidas;Nunca;Muito alto;Sim, se o retorno for superior
+29;Comprar um bem (carro, casa, viagem);Sim, mais de 6 meses;Curto prazo (Até 1 ano);Quero resgatar daqui a 1 ano;Não;Nunca;Baixo;Não
+46;Comprar um bem (carro, casa, viagem);Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Resgate em alguns meses;Não;Frequentemente;Moderado;Sim, se o retorno for superior
+63;Gerar renda mensal;Não possuo;Longo prazo (acima de 5 anos);Resgate em 30 dias;Sim, pequenas dívidas;Raramente;Moderado;Não
+38;Comprar um bem (carro, casa, viagem);Sim, menos de 6 meses de despesas;Longo prazo (acima de 5 anos);Resgate diário;Sim, pequenas dívidas;Frequentemente;Baixo;Não tenho preferência
+44;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate em alguns meses;Não;Raramente;Moderado;Não
+44;Gerar renda mensal;Sim, mais de 6 meses;Médio prazo (1 a 5 anos);Resgate em alguns meses;Sim, pequenas dívidas;Nunca;Baixo;Não
+35;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate em alguns meses;Sim, dívidas significativas;Nunca;Muito baixo;Não tenho preferência
+67;Gerar renda mensal;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Posso deixar por anos sem mexer;Sim, pequenas dívidas;Raramente;Baixo;Não
+66;Comprar um bem (carro, casa, viagem);Não possuo;Curto prazo (Até 1 ano);Resgate em 30 dias;Sim, pequenas dívidas;Frequentemente;Muito alto;Não tenho preferência
+44;Gerar renda mensal;Não possuo;Médio prazo (1 a 5 anos);Resgate em alguns meses;Não;Raramente;Muito baixo;Sim, se o retorno for superior
+18;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate em alguns meses;Não;Raramente;Muito baixo;Sim, se o retorno for superior
+27;Aposentadoria;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Resgate diário;Sim, dívidas significativas;Nunca;Alto;Não
+46;Aposentadoria;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Sim, pequenas dívidas;Raramente;Alto;Não tenho preferência
+33;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Longo prazo (acima de 5 anos);Posso deixar por anos sem mexer;Sim, pequenas dívidas;Raramente;Muito baixo;Sim, se o retorno for superior
+68;Gerar renda mensal;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Quero resgatar daqui a 1 ano;Não;Raramente;Alto;Não tenho preferência
+58;Gerar renda mensal;Não possuo;Médio prazo (1 a 5 anos);Resgate diário;Sim, dívidas significativas;Frequentemente;Baixo;Não tenho preferência
+40;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Longo prazo (acima de 5 anos);Resgate diário;Sim, dívidas significativas;Frequentemente;Muito alto;Sim, se o retorno for superior
+35;Construir reserva de emergência;Não possuo;Longo prazo (acima de 5 anos);Resgate em 30 dias;Sim, pequenas dívidas;Nunca;Moderado;Sim, se o retorno for superior
+41;Gerar renda mensal;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Quero resgatar daqui a 1 ano;Sim, dívidas significativas;Frequentemente;Muito baixo;Não
+29;Comprar um bem (carro, casa, viagem);Sim, mais de 6 meses;Curto prazo (Até 1 ano);Resgate diário;Não;Nunca;Moderado;Não tenho preferência
+32;Aposentadoria;Não possuo;Longo prazo (acima de 5 anos);Posso deixar por anos sem mexer;Não;Nunca;Muito alto;Sim, se o retorno for superior
+39;Gerar renda mensal;Não possuo;Longo prazo (acima de 5 anos);Resgate diário;Não;Frequentemente;Muito alto;Sim, se o retorno for superior
+20;Construir reserva de emergência;Sim, menos de 6 meses de despesas;Médio prazo (1 a 5 anos);Quero resgatar daqui a 1 ano;Não;Frequentemente;Muito alto;Não
+67;Gerar renda mensal;Não possuo;Longo prazo (acima de 5 anos);Posso deixar por anos sem mexer;Sim, dívidas significativas;Frequentemente;Muito baixo;Sim, se o retorno for superior
+70;Construir reserva de emergência;Sim, mais de 6 meses;Longo prazo (acima de 5 anos);Quero resgatar daqui a 1 ano;Sim, dívidas significativas;Raramente;Moderado;Sim, se o retorno for superior
+33;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Longo prazo (acima de 5 anos);Resgate diário;Não;Raramente;Moderado;Não tenho preferência
+19;Acumular patrimônio no longo prazo;Sim, menos de 6 meses de despesas;Curto prazo (Até 1 ano);Resgate em alguns meses;Sim, pequenas dívidas;Raramente;Moderado;Não
+65;Construir reserva de emergência;Não possuo;Médio prazo (1 a 5 anos);Resgate diário;Sim, pequenas dívidas;Nunca;Baixo;Não

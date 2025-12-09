@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Investidor</title>
+    <style>
+        body {
+            margin: 0;
+            background: #f4f7fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 35px 40px;
+            width: 600px;
+            border-radius: 18px;
+            box-shadow: 0px 4px 25px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        h2 { margin-bottom: 25px; color: #2b3a4a; }
+        label { display: block; font-weight: 600; margin-top: 18px; color: #33475b; font-size: 15px; text-align: left; }
+        select, input {
+            width: 100%; padding: 12px; border-radius: 10px; border: 1px solid #ccd7e0;
+            margin-top: 6px; background: #f9fbfc; font-size: 14px; outline: none; transition: all 0.2s ease;
+        }
+        select:focus, input:focus {
+            border-color: #5a8dee;
+            box-shadow: 0 0 0 3px rgba(90, 141, 238, 0.2);
+        }
+        button {
+            margin-top: 30px; padding: 14px 30px; border: none; border-radius: 12px;
+            background: linear-gradient(135deg, #ff6eb4, #ff3399); color: white; font-size: 16px;
+            cursor: pointer; font-weight: 600; transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        button:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(255, 102, 180, 0.35); }
+
+        #resultado { margin-top: 25px; display: none; text-align: left; }
+        .card { background: #ffffff; border-radius: 16px; box-shadow: 0px 4px 20px rgba(0,0,0,0.05); padding: 20px; margin-top: 15px; animation: fadeIn 0.5s ease; }
+        .perfil { font-size: 20px; font-weight: bold; color: #2a4b7c; margin-bottom: 10px; }
+        .descricao { color: #4a5c6b; margin-bottom: 15px; }
+        ul { padding-left: 18px; }
+        li { margin-bottom: 6px; color: #444; }
+        .invest-card .nome { font-weight: bold; color: #1f3c88; margin-bottom: 6px; }
+        .invest-card .detalhes { font-size: 14px; color: #33475b; }
+        .ranking { font-weight: bold; color: #ff3399; margin-right: 8px; }
+
+
+        .header-logo img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .descricao-logo {
+            font-size: 18px;
+            color: #33475b;
+            margin-bottom: 25px;
+        }
+
+
+        .fade-out { animation: fadeOut 0.5s forwards; }
+        .fade-in { animation: fadeIn 0.5s forwards; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+
+    <div id="tela-inicial">
+        <div class="header-logo">
+            <img src="assets/logo_sad.png" alt="Logo SAD">
+            <p class="descricao-logo">
+                Trazendo alternativas realistas e seguras para transformar seu presente em um futuro mais confortável.
+            </p>
+        </div>
+        <button id="btn-comecar">Começar</button>
+    </div>
+
+    <div id="form-container" style="display:none; opacity:0;">
+        <h2>Avaliação do seu Perfil de Investimento</h2>
+        <form id="form-invest">
+            <label>Sua idade aproximada</label>
+            <input type="number" id="idade" min="18" placeholder="Informe sua idade" required>
+
+            <label>Qual meta financeira melhor descreve sua fase atual?</label>
+            <select id="objetivo" required>
+                <option value="" disabled selected>Selecione aqui</option>
+                <option>Construir reserva de emergência</option>
+                <option>Comprar um bem (carro, casa, viagem)</option>
+                <option>Acumular patrimônio no longo prazo</option>
+                <option>Aposentadoria</option>
+                <option>Gerar renda mensal</option>
+            </select>
+
+            <label>Você possui reserva financeira atualmente?</label>
+            <select id="reserva" required>
+                <option value="" disabled selected>Selecione aqui</option>
+                <option>Não possuo</option>
+                <option>Sim, menos de 6 meses de despesas</option>
+                <option>Sim, mais de 6 meses</option>
+            </select>
+
+            <label>Em quanto tempo você imagina usar esse dinheiro?</label>
+            <select id="horizonte" required>
+                <option value="" disabled selected>Selecione aqui</option>
+                <option>Curto prazo (até 1 ano)</option>
+                <option>Médio prazo (1 a 5 anos)</option>
+                <option>Longo prazo (acima de 5 anos)</option>
+            </select>
+
+            <label>Qual nível de disponibilidade do dinheiro você prefere?</label>
+            <select id="liquidez" required>
+                <option value="" disabled selected>Selecione aqui</option>
+                <option>Resgate diário</option>
+                <option>Resgate em 30 dias</option>
+                <option>Resgate em alguns meses</option>
+            </select>
+
+            <label>Com que frequência você aprende sobre finanças?</label>
+            <select id="educacao" required>
+                <option value="" disabled selected>Selecione aqui</option>
+                <option>Nunca</option>
+                <option>Raramente</option>
+                <option>Frequentemente</option>
+            </select>
+
+            <label>Que nível de oscilações financeiras você está disposto a tolerar?</label>
+            <select id="risco" required>
+                <option value="" disabled selected>Selecione aqui</option>
+                <option>Muito baixo</option>
+                <option>Baixo</option>
+                <option>Moderado</option>
+                <option>Alto</option>
+                <option>Muito alto</option>
+            </select>
+
+            <label>Aceitaria investimentos que envolvem IR (Imposto de Renda)?:</label>
+            <select id="ir" required>
+                <option value="" disabled selected>Selecione aqui</option>
+                <option>Não</option>
+                <option>Sim, se o retorno for superior</option>
+                <option>Não tenho preferência</option>
+            </select>
+
+            <button type="submit">Gerar recomendação</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+</div>
+
+<script>
+document.getElementById("btn-comecar").addEventListener("click", function() {
+    const tela = document.getElementById("tela-inicial");
+    const form = document.getElementById("form-container");
+
+    tela.classList.add("fade-out");
+
+    setTimeout(() => {
+        tela.style.display = "none";
+        form.style.display = "block";
+        form.classList.add("fade-in");
+    }, 500);
+});
+
+document.getElementById("form-invest").addEventListener("submit", async function(e){
+    e.preventDefault();
+
+    const idade = Number(document.getElementById("idade").value);
+    if(idade < 18){
+        alert("Idade mínima permitida: 18 anos");
+        return;
+    }
+
+    const payload = {
+        idade: idade,
+        objetivo: document.getElementById("objetivo").value,
+        reserva_de_emergencia: document.getElementById("reserva").value,
+        horizonte: document.getElementById("horizonte").value,
+        liquidez: document.getElementById("liquidez").value,
+        dividas: "0",
+        educacao_financeiro: document.getElementById("educacao").value,
+        risco: document.getElementById("risco").value,
+        aceita_ir: document.getElementById("ir").value
+    };
+
+    try {
+        const res = await fetch("http://localhost:5000/recomendar", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        });
+
+        if(!res.ok) throw new Error("Erro na requisição");
+
+        const data = await res.json();
+
+        if(!data.top_investimentos) data.top_investimentos = [];
+        if(!data.justificativas) data.justificativas = [];
+
+        exibirResultado(data);
+
+    } catch(err) {
+        alert("Erro ao gerar recomendação: " + err.message);
+    }
+});
+
+function exibirResultado(data) {
+    const box = document.getElementById("resultado");
+    box.style.display = "block";
+
+    let html = `
+        <div class="card">
+            <div class="perfil">${data.perfil || "Perfil não definido"}</div>
+            <div class="descricao">${data.descricao || ""}</div>
+            <h4>📌 Justificativas</h4>
+            <ul>${data.justificativas.map(j => `<li>${j}</li>`).join("")}</ul>
+        </div>
+    `;
+
+    if(data.top_investimentos.length > 0) {
+        html += `<h4 style="margin-top:20px;">💡 Top 3 Investimentos Recomendados</h4>`;
+        data.top_investimentos.forEach((inv, idx) => {
+            html += `
+            <div class="card invest-card">
+                <div class="nome"><span class="ranking">#${idx+1}</span>${inv.nome} (${inv.perfil_recomendado})</div>
+                <div class="detalhes">
+                    Banco: ${inv.instituicao_bancaria || "Não informado"} <br>
+                    Classe: ${inv.classe} <br>
+                    Risco: ${inv.risco} | Liquidez: ${inv.liquidez_dias} dias <br>
+                    Horizonte mínimo: ${inv.horizonte_min_meses} meses | Volatilidade: ${inv.volatilidade}
+                </div>
+            </div>
+            `;
+        });
+    }
+
+    box.innerHTML = html;
+    box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+</script>
+</body>
+</html>
+

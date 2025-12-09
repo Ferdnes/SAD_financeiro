@@ -1,0 +1,41 @@
+nome;classe;risco;risco_investimento;liquidez_dias;horizonte_min_meses;retorno_esperado_anual;rendimento_mensal;volatilidade;aceita_ir;tipo_ajuste;instituicao_bancaria;descricao
+Poupança;Renda Fixa;1;conservador;0;0;6.17;0.50;1;não;pós;Caixa;Poupança tradicional com liquidez diária
+LCI Imobiliária 1 ano;Renda Fixa;2;conservador;90;12;10;0.80;2;não;pós;Itaú;LCI isenta com lastro imobiliário
+LCA Agronegócio 2 anos;Renda Fixa;2;conservador;90;24;11;0.87;2;não;pós;Bradesco;LCA isenta com lastro agro
+LCI 3 anos;Renda Fixa;2;conservador;120;36;12;0.95;3;não;pós;Santander;Isenta e com prazo maior
+LCA 3 anos;Renda Fixa;2;conservador;120;36;12;0.95;3;não;pós;Banco do Brasil;Isenta do IR e com retorno elevado para o prazo
+CRI Corporativo;Crédito Privado;3;moderado;180;36;13;1.02;3;não;pré;BTG;Título imobiliário isento
+CRA Agro;Crédito Privado;3;moderado;180;36;13;1.02;3;não;pré;BTG;Título do agronegócio isento
+Debênture Incentivada Infra;Renda Fixa;3;moderado;90;36;14;1.10;4;não;pré;Itaú;Isenta e focada em infraestrutura
+Debênture Incentivada Energia;Renda Fixa;3;moderado;90;48;14;1.10;4;não;pré;Santander;Foco em energia limpa
+COE Protegido Isento;Estruturado;3;moderado;30;12;12;0.95;2;não;híbrido;XP;Estrutura com ativos incentivados
+COE Agro Isento;Estruturado;3;moderado;30;12;13;1.02;3;não;híbrido;BTG;COE com lastro agro isento
+FII Papel (CRI);FII;3;moderado;30;18;12;0.95;3;sim;pós;XP;Fundo de recebíveis imobiliários
+FII Agro;FII;3;moderado;30;18;11;0.87;3;sim;pós;Nubank;Fundo do agronegócio
+CDB Liquidez Diária;Renda Fixa;1;conservador;0;0;10;0.80;1;sim;pós;Banco Inter;Renda fixa com liquidez diária
+Tesouro Selic;Renda Fixa;1;conservador;0;0;9;0.72;1;sim;pós;Tesouro Nacional;Título público
+Tesouro IPCA 2030;Renda Fixa;2;moderado;60;60;12;0.95;3;sim;híbrido;Tesouro Nacional;Proteção contra inflação
+Tesouro IPCA 2045;Renda Fixa;2;moderado;60;120;13;1.02;3;sim;híbrido;Tesouro Nacional;Longo prazo
+Multimercado Moderado;Multimercado;3;moderado;30;12;16;1.24;4;sim;mix;XP;Diversificado
+Multimercado Agressivo;Multimercado;4;agressivo;90;6;20;1.53;6;sim;mix;BTG;Alta volatilidade
+Ações Large Cap;Ação;4;agressivo;2;6;18;1.39;7;sim;variável;Itaú;Carteira de ações de grandes empresas
+Ações Small & Mid Cap;Ação;5;muito agressivo;2;6;25;1.86;9;sim;variável;BTG;Carteira de ações de pequenas e médias empresas
+ETF Large Cap Brasil;ETF;3;moderado;2;6;16;1.24;6;sim;variável;Itaú;ETF de empresas brasileiras de grande porte
+ETF Small & Mid Cap Brasil;ETF;4;agressivo;2;6;22;1.67;8;sim;variável;BTG;ETF de pequenas e médias empresas
+COE Alavancado;Estruturado;4;agressivo;30;6;25;1.86;8;sim;variável;Bradesco;COE com alavancagem
+Derivativos Simples;Derivativos;5;muito agressivo;1;1;40;2.82;12;sim;variável;Clear;Opções
+Cripto Genérica 1;Cripto;5;muito agressivo;1;1;50;3.47;15;sim;variável;Mercado Bitcoin;Criptomoeda volátil
+Cripto Genérica 2;Cripto;5;muito agressivo;1;1;45;3.24;14;sim;variável;Mercado Bitcoin;Cripto
+Stablecoin;Cripto;2;moderado;1;1;9;0.72;2;sim;variável;Mercado Bitcoin;Atrelada ao dólar
+CDB 3 anos;Renda Fixa;3;moderado;90;36;12;0.95;3;sim;pré;Santander;Prazo longo com retorno alto
+Tesouro Prefixado 2029;Renda Fixa;2;moderado;60;48;12;0.95;3;sim;pré;Tesouro Nacional;Retorno fixo
+FII Logístico;FII;3;moderado;30;24;12;0.95;4;sim;variável;BTG;Fundo de galpões
+FII Shopping;FII;3;moderado;30;24;12;0.95;4;sim;variável;Santander;Renda de shoppings
+CRA Exportação;Crédito Privado;3;moderado;180;36;13;1.02;3;não;pré;Safra;Ativo agro exportação
+CRI Shopping Center;Crédito Privado;3;moderado;180;36;13;1.02;3;não;pré;BTG;Recebíveis de shoppings
+Debênture Incentivada Logística;Renda Fixa;3;moderado;90;36;14;1.10;4;não;pré;Itaú;Infraestrutura logística
+LCI Curto Prazo;Renda Fixa;2;conservador;90;6;9;0.72;2;não;pós;Banco Pan;Investimento isento
+LCA Curto Prazo;Renda Fixa;2;conservador;90;6;9;0.72;2;não;pós;C6 Bank;Investimento agro isento
+Fundo Multimercado Genérico 1;Multimercado;3;moderado;30;12;15;1.18;4;sim;mix;XP;Fundo multimercado diversificado
+Fundo Multimercado Genérico 2;Multimercado;4;agressivo;60;12;20;1.53;6;sim;mix;BTG;Fundo multimercado com maior risco e retorno
+Renda Fixa Curto Prazo Genérica;Renda Fixa;2;conservador;60;6;8;0.66;2;não;pós;Banco Pan;Investimento de renda fixa curto prazo, isento de IR
